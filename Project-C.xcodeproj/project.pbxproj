@@ -15,6 +15,7 @@
 		76B479FE20D847E70099567F /* Project_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B479FD20D847E70099567F /* Project_CTests.swift */; };
 		76B47A0920D847E70099567F /* Project_CUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B47A0820D847E70099567F /* Project_CUITests.swift */; };
 		76B47A1920D8485C0099567F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B47A1820D8485C0099567F /* CloudKit.framework */; };
+		76B47A1B20D848B20099567F /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B47A1A20D848B20099567F /* CloudKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		76B47A0A20D847E70099567F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76B47A1620D8485A0099567F /* Project-C.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Project-C.entitlements"; sourceTree = "<group>"; };
 		76B47A1820D8485C0099567F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		76B47A1A20D848B20099567F /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				76B479EF20D847E60099567F /* Assets.xcassets */,
 				76B479F120D847E60099567F /* LaunchScreen.storyboard */,
 				76B479F420D847E60099567F /* Info.plist */,
+				76B47A1A20D848B20099567F /* CloudKitManager.swift */,
 			);
 			path = "Project-C";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				76B479EB20D847E60099567F /* ViewController.swift in Sources */,
 				76B479E920D847E60099567F /* AppDelegate.swift in Sources */,
+				76B47A1B20D848B20099567F /* CloudKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
